@@ -9,15 +9,129 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
     <link rel="shortcut icon" href="logo.png" type="image/x-icon">
-    <style></style>
+    <link rel="stylesheet" href="clock.css">
+    <style>
+
+    </style>
 </head>
 
 <body>
+    <div class="hero">
+    </div>
+    <p id="caption" class="p-3"> What happened to your Phone's Clock?</p>
+    <div class="p-5">
+        <div class="clock">
+            <div class="clock__second"></div>
+            <div class="clock__minute"></div>
+            <div class="clock__hour"></div>
+            <div class="clock__axis"></div>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
+
+    <script src="clock.js"></script>
+    <script>
+        const jokes = [
+            "Imagine using your phone to scan a code… just to check the time… on a website… on the same phone.",
+            "You had one job: look at your phone’s clock. And you failed it spectacularly.",
+            "Your phone can tell you the time, but nooo… you needed an adventure.",
+            "Oh look, you made your phone do extra work for something it already does.",
+            "I bet you also Google 'Google' when searching for something.",
+            "Let me guess, you also use a calculator to double-check 2 + 2?",
+            "Your phone: *‘Am I a joke to you?’*",
+            "You’re the type to text 'where are you?' instead of sharing location.",
+            "Next, you'll be asking Siri for directions… to your own house.",
+            "At this point, just ask a sundial.",
+            "You really woke up today and chose ‘extra steps’ huh?",
+            "Efficiency left the chat when you scanned this QR code.",
+            "Life is already hard… and here you are making it harder.",
+            "This is why aliens don’t visit us.",
+            "There’s ‘work smart’, there’s ‘work hard’… and then there’s *this*.",
+            "Next time, just use a carrier pigeon to ask the time.",
+            "What happened? Did your phone’s clock offend you?",
+            "I have to ask… are you okay? Blink twice if you need help.",
+            "Somewhere, a watchmaker just felt a disturbance in the force.",
+            "Congratulations! You unlocked the achievement: *‘Unnecessary Effort’.*"
+        ];
+
+        document.getElementById("caption").innerText = jokes[Math.floor(Math.random() * jokes.length)];
+
+    </script>
 </body>
 
 </html>

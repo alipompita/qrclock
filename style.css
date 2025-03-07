@@ -1,0 +1,19 @@
+body {
+  background-color: #333333;
+  color: antiquewhite;
+}
+
+.hero {
+  width: 100vw;
+  background-image: url("disappointment.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700px;
+  font-style: normal;
+  text-align: center;
+}
